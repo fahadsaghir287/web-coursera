@@ -1,0 +1,27 @@
+/* styles.css */
+
+#home {
+    height: 80vh;
+    background-image: url('home pic.jfif');
+    text-align: center;
+    background-size: cover; /* Adjust to your preference */
+    background-position: center; /* Adjust to your preference */
+  }
+  .card {
+    display: flex;
+  }
+
+  .card-img-top {
+    object-fit: cover;
+    height: 200px; /* Set the desired height */
+    width: 100%; /* Ensure the image fills the container */
+  }
+  .checker{
+    background-color: aqua;
+    /* color: aqua; */
+    display:flex;
+    justify-content: center;
+  }
+  .busy{
+    background-color:gainsboro
+  }
